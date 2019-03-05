@@ -177,19 +177,19 @@
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="nav-item p-b-10">
-						<a class="nav-link active" data-toggle="tab" href="{{URL('users/#best-seller" role="tab">Best Seller</a>
+						<a class="nav-link active" data-toggle="tab" href="{{URL('users/#best-seller')}}" role="tab">Best Seller</a>
 					</li>
 
 					<li class="nav-item p-b-10">
-						<a class="nav-link" data-toggle="tab" href="{{URL('users/#featured" role="tab">Featured</a>
+						<a class="nav-link" data-toggle="tab" href="{{URL('users/#featured')}}" role="tab">Featured</a>
 					</li>
 
 					<li class="nav-item p-b-10">
-						<a class="nav-link" data-toggle="tab" href="{{URL('users/#sale" role="tab">Sale</a>
+						<a class="nav-link" data-toggle="tab" href="{{URL('users/#sale')}}" role="tab">Sale</a>
 					</li>
 
 					<li class="nav-item p-b-10">
-						<a class="nav-link" data-toggle="tab" href="{{URL('users/#top-rate" role="tab">Top Rate</a>
+						<a class="nav-link" data-toggle="tab" href="{{URL('users/#top-rate')}}" role="tab">Top Rate</a>
 					</li>
 				</ul>
 
