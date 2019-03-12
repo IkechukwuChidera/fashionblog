@@ -16,7 +16,7 @@
 							Help & FAQs
 						</a>
 
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
+						<a href="{{URL('login')}}" class="flex-c-m trans-04 p-lr-25">
 							My Account
 						</a>
 

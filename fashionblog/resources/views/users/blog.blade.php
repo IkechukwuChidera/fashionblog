@@ -2,7 +2,7 @@
 @section('content')
 
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-02.jpg')}}');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('{{asset('images/bg-02.jpg')}}');">
 		<h2 class="ltext-105 cl0 txt-center">
 			Blog
 		</h2>
@@ -176,11 +176,11 @@
 
 						<!-- Pagination -->
 						<div class="flex-l-m flex-w w-full p-t-10 m-lr--7">
-							<a href="{{URL('users/{{asset('#')}}" class="flex-c-m how-pagination1 trans-04 m-all-7 active-pagination1">
+							<a href="{{URL('users/#')}}" class="flex-c-m how-pagination1 trans-04 m-all-7 active-pagination1">
 								1
 							</a>
 
-							<a href="{{URL('users/{{asset('#')}}" class="flex-c-m how-pagination1 trans-04 m-all-7">
+							<a href="{{URL('users/#')}}" class="flex-c-m how-pagination1 trans-04 m-all-7">
 								2
 							</a>
 						</div>

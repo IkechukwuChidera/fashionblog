@@ -6,7 +6,7 @@
 	<section class="section-slide">
 		<div class="wrap-slick1 rs2-slick1">
 			<div class="slick1">
-				<div class="item-slick1 bg-overlay1" style="background-image: url(images/slide-05.jpg')}});" data-thumb="images/thumb-01.jpg')}}" data-caption="Women’s Wear">
+				<div class="item-slick1 bg-overlay1" style="background-image: url('{{asset('images/slide-05.jpg')}}');" data-thumb="images/thumb-01.jpg')}}" data-caption="Women’s Wear">
 					<div class="container h-full">
 						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
@@ -30,7 +30,7 @@
 					</div>
 				</div>
 
-				<div class="item-slick1 bg-overlay1" style="background-image: url(images/slide-06.jpg')}});" data-thumb="images/thumb-02.jpg')}}" data-caption="Men’s Wear">
+				<div class="item-slick1 bg-overlay1" style="background-image: url('{{asset('images/slide-06.jpg')}}');" data-thumb="images/thumb-02.jpg')}}" data-caption="Men’s Wear">
 					<div class="container h-full">
 						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 
-				<div class="item-slick1 bg-overlay1" style="background-image: url(images/slide-07.jpg')}});" data-thumb="images/thumb-03.jpg')}}" data-caption="Men’s Wear">
+				<div class="item-slick1 bg-overlay1" style="background-image: url('{{asset('images/slide-07.jpg')}}');" data-thumb="images/thumb-03.jpg')}}" data-caption="Men’s Wear">
 					<div class="container h-full">
 						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
@@ -288,37 +288,37 @@
 
 							<ul>
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Default
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Popularity
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Average rating
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04 filter-link-active">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04 filter-link-active">
 										Newness
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Price: Low to High
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Price: High to Low
 									</a>
 								</li>
@@ -332,37 +332,37 @@
 
 							<ul>
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04 filter-link-active">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04 filter-link-active">
 										All
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										$0.00 - $50.00
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										$50.00 - $100.00
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										$100.00 - $150.00
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										$150.00 - $200.00
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										$200.00+
 									</a>
 								</li>
@@ -380,7 +380,7 @@
 										<i class="zmdi zmdi-circle"></i>
 									</span>
 
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Black
 									</a>
 								</li>
@@ -390,7 +390,7 @@
 										<i class="zmdi zmdi-circle"></i>
 									</span>
 
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04 filter-link-active">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04 filter-link-active">
 										Blue
 									</a>
 								</li>
@@ -400,7 +400,7 @@
 										<i class="zmdi zmdi-circle"></i>
 									</span>
 
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Grey
 									</a>
 								</li>
@@ -410,7 +410,7 @@
 										<i class="zmdi zmdi-circle"></i>
 									</span>
 
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Green
 									</a>
 								</li>
@@ -420,7 +420,7 @@
 										<i class="zmdi zmdi-circle"></i>
 									</span>
 
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										Red
 									</a>
 								</li>
@@ -430,7 +430,7 @@
 										<i class="zmdi zmdi-circle-o"></i>
 									</span>
 
-									<a href="{{URL('users/#')}}" class="filter-link stext-106 trans-04">
+									<a href="{{URL('#')}}" class="filter-link stext-106 trans-04">
 										White
 									</a>
 								</li>
@@ -443,23 +443,23 @@
 							</div>
 
 							<div class="flex-w p-t-4 m-r--5">
-								<a href="{{URL('users/#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+								<a href="{{URL('#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
 									Fashion
 								</a>
 
-								<a href="{{URL('users/#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+								<a href="{{URL('#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
 									Lifestyle
 								</a>
 
-								<a href="{{URL('users/#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+								<a href="{{URL('#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
 									Denim
 								</a>
 
-								<a href="{{URL('users/#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+								<a href="{{URL('#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
 									Streetstyle
 								</a>
 
-								<a href="{{URL('users/#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+								<a href="{{URL('#')}}" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
 									Crafts
 								</a>
 							</div>
@@ -475,7 +475,7 @@
 						<div class="block2-pic hov-img0 label-new" data-label="New">
 							<img src="{{asset('images/product-01.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -492,7 +492,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -507,7 +507,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-02.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -524,7 +524,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -539,7 +539,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-03.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -556,7 +556,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -571,7 +571,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-04.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -588,7 +588,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -603,7 +603,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-05.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -620,7 +620,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -635,7 +635,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-06.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -652,7 +652,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -667,7 +667,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-07.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -684,7 +684,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -699,7 +699,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-08.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -716,7 +716,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -731,7 +731,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-09.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -748,7 +748,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -763,7 +763,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-10.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -780,7 +780,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -795,7 +795,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-11.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -812,7 +812,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -827,7 +827,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-12.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -844,7 +844,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -859,7 +859,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-13.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -876,7 +876,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -891,7 +891,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-14.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -908,7 +908,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -923,7 +923,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-15.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -940,7 +940,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -955,7 +955,7 @@
 						<div class="block2-pic hov-img0">
 							<img src="{{asset('images/product-16.jpg')}}" alt="IMG-PRODUCT">
 
-							<a href="{{URL('users/#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							<a href="{{URL('#')}}" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
 							</a>
 						</div>
@@ -972,7 +972,7 @@
 							</div>
 
 							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="{{URL('users/#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+								<a href="{{URL('#')}}" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
 									<img class="icon-heart1 dis-block trans-04" src="{{asset('images/icons/icon-heart-01.png')}}" alt="ICON">
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{asset('images/icons/icon-heart-02.png')}}" alt="ICON">
 								</a>
@@ -984,11 +984,11 @@
 
 			<!-- Pagination -->
 			<div class="flex-c-m flex-w w-full p-t-38">
-				<a href="{{URL('users/#')}}" class="flex-c-m how-pagination1 trans-04 m-all-7 active-pagination1">
+				<a href="{{URL('#')}}" class="flex-c-m how-pagination1 trans-04 m-all-7 active-pagination1">
 					1
 				</a>
 
-				<a href="{{URL('users/#')}}" class="flex-c-m how-pagination1 trans-04 m-all-7">
+				<a href="{{URL('#')}}" class="flex-c-m how-pagination1 trans-04 m-all-7">
 					2
 				</a>
 			</div>
