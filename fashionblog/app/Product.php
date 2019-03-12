@@ -6,10 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-  protected $guarding=['id'];
-  protected $table='product'
+  protected $guarded=['id'];
+  protected $table=['product'];
+
     //
-    public function category(){
-      $this->belonsTo(category::class)
+    public function category()
+    {
+      $this->belongsTo(App\User);
     }
 }
