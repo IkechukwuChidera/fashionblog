@@ -19,7 +19,7 @@ class CreateProductTable extends Migration
               $table->string('Price');
               $table->string('Product_name');
               $table->string('Description');
-              $table->integer('category_id')->unsigned();
+              $table->bigInteger('category_id')->unsigned();
 
 
               $table->foreign('category_id')->references('id')
