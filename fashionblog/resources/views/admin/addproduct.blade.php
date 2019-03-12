@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="form-group">
                                         <div class="col col-md-6"><label for="file-multiple-input" class=" form-control-label">Upload Multiple images</label></div>
-                                        <div class="col-12 col-md-9"><input type="file" id="file-multiple-input" name="file-multiple-input" multiple="" class="form-control-file"></div>
+                                        <div class="col-12 col-md-9"><input type="file" id="file-multiple-input" name="Image" multiple="" class="form-control-file"></div>
                                 </div></br>
                             
                                 <div class ="col-md-6" style="padding-left:40%; padding-bottom:5%; ">

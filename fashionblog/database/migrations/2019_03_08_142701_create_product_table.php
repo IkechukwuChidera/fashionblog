@@ -15,11 +15,11 @@ class CreateProductTable extends Migration
     {
         Schema::create('product', function (Blueprint $table) {
               $table->bigIncrements('id');
-              $table->string('Image');
+              $table->string('Image')->nullable();
               $table->string('Price');
               $table->string('Product_name');
               $table->string('Description');
-              $table->bigInteger('category_id')->unsigned();
+              $table->bigInteger('category_id')->unsigned()->nullabe();
 
 
               $table->foreign('category_id')->references('id')
