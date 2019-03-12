@@ -20,21 +20,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/admin/index', 'AdminController@index');
-<<<<<<< HEAD
-<<<<<<< HEAD
-Route::resource('admin', 'AdminController');
-Route::get('/admin/add', 'AdminController@create');
-// Route::post('/admin/addproduct', 'AdminController@store');
-=======
-=======
->>>>>>> 810d35e610547e6c7387922a50d0e850ce1e5863
 
 Route::get('/admin/addproduct', 'AdminController@add');
 
 
-<<<<<<< HEAD
 // Route::get('/admin/add', 'AdminController@get');
->>>>>>> 810d35e610547e6c7387922a50d0e850ce1e5863
-=======
-// Route::get('/admin/add', 'AdminController@get');
->>>>>>> 810d35e610547e6c7387922a50d0e850ce1e5863

@@ -1,6 +1,7 @@
 @extends('layout.master')
 @section('title','Blog')
 @section('content')
+<<<<<<< HEAD
         <!-- Content -->
         <div class="content">
             <!-- Animated -->
@@ -481,4 +482,11 @@
         <!-- /.site-footer -->
     </div>
     <!-- /#right-panel -->
+=======
+
+
+
+
+
+>>>>>>> 810d35e610547e6c7387922a50d0e850ce1e5863
 @endsection

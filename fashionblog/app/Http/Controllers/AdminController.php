@@ -64,6 +64,7 @@ class AdminController extends Controller
         //
     }
 
+<<<<<<< HEAD
     /**
      * Show the form for editing the specified resource.
      *
@@ -103,6 +104,43 @@ class AdminController extends Controller
           $product->save();
 
      return redirect('/admin/index')->with('success', 'Stock has been updated');
+=======
+
+  public function add()
+  {
+    return view('admin.addproduct');
+
+  }
+
+public function store()
+{
+  return view(a);
+
+}
+
+public function show()
+{return view(a);
+
+}
+
+public function edit()
+{return view(a);
+
+}
+
+public function update()
+{return view(a);
+
+}
+
+public function destroy()
+{return view(a);
+
+}
+
+
+
+>>>>>>> 810d35e610547e6c7387922a50d0e850ce1e5863
 }
         //
     }
