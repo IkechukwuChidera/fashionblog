@@ -13,8 +13,41 @@
                         <div class="card">
                             <div class="card-header">
                                 <strong> Add New Product </strong> 
+
+                                <div class ="row">
+
+                                    @if ($errors->any())
+
+                                        <div class="alert alert-danger">
+
+                                            <strong>Whoops!</strong> There were some problems with your product input.<br><br>
+
+                                            <ul>
+
+                                                @foreach ($errors->all() as $error)
+
+                                                    <li>{{ $error }}</li>
+
+                                                @endforeach
+
+                                            </ul>
+
+                                        </div>
+
+                                    @endif
+                                </div>
+                                <div>
+                                  @if (Session::has('success'))
+                                      <div class="alert alert-info">{{ Session::get('Success') }}</div>
+                                  @endif
+                                </div>
+
+
+
+
+
                             </div>
-                            <form class ="form area" method ="post" class = "contact-form text-right">
+                            <form class ="form area" method ="post" class = "contact-form text-right" action = "{{route('prod')}}" enctype = "multipart/form-data">
                                 {{csrf_field()}}
                                 <div class="card-body card-block">
                                     <div class="form-group">
@@ -41,20 +74,21 @@
                                         </div>
                                         <small class="form-text text-muted">ex. 99-9999999</small>
                                     </div></br>
+
                                     <div class="form-group col-sm-6">
                                         <strong class="card-title"> Select Category</strong>
                                     
-                                    <div class="card-body">
 
-                                    <select data-placeholder="Choose a Country..." class="standardSelect" tabindex="1" name= "category_id">
-                                        <option value="" label="default"></option>
-                                        <option value="United States">Bags</option>
-                                        <option value="United Kingdom">Belts</option>
-                                        <option value="Afghanistan">Shoes</option>
-                                        <option value="Aland Islands">Watches</option>
-                                        <option value="Albania">Wears</option>
-                                        
-                                    </select>
+                                        <div class="card-body">
+                                            <select data-placeholder="Choose a Category..." class="standardSelect" tabindex="1" name= "categories_id">
+                                                <option value="2">Bags</option>
+                                                <option value="5">Belts</option>
+                                                <option value="4">Shoes</option>
+                                                <option value="3">Watches</option>
+                                                <option value="1">Wears</option>  
+                                            </select>
+                                        </div>
+
                                     </div>
                                     </div>
                 
@@ -62,12 +96,12 @@
                                     
                                 </div>
                                 <div class="form-group">
-                                        <div class="col col-md-6"><label for="file-multiple-input" class=" form-control-label">Upload Multiple images</label></div>
-                                        <div class="col-12 col-md-9"><input type="file" id="file-multiple-input" name="Image" multiple="" class="form-control-file"></div>
+                                        <div class="col col-md-6"><label for="file-multiple-input" class=" form-control-label"><strong> Upload Multiple images </strong></label></div>
+                                        <div class="col-12 col-md-9"><input type="file" id="file-multiple-input" name="Image[]"  class="form-control-file" multiple></div>
                                 </div></br>
                             
                                 <div class ="col-md-6" style="padding-left:40%; padding-bottom:5%; ">
-                                <button type="submit" class="btn btn-primary btn-sm" width ="100px"> Submit </button>
+                                   <button type="submit" class="btn btn-primary btn-sm" width ="50px"> Submit </button>
                                 </div>
                             </form>
                         </div>
