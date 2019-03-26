@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    protected $table= ['Category'];
+    protected $table= 'categories';
     protected $guarded= ['id'];
     public function product()
     {
-    return $this->hasMany (product::class);
-    }  //
+    return $this->hasMany(Product::class);
+    }  
 }

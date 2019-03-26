@@ -15,13 +15,33 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+
+  
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//routes for fashionblog Adminpanel
+
+
 
 Route::get('/admin/index', 'AdminController@index');
 
-Route::get('/admin/addproduct', 'AdminController@add');
+//route for posting and getting from db
+Route::get('/admin/addproduct', 'AdminController@addproduct');
+Route::post('/admin/addproduct', 'AdminController@storeproduct')->name('prod');
+
+//triAL
+Route::get('/admin/addcategory', 'AdminController@addcategory');
+Route::post('/admin/addcategory', 'AdminController@store');
 
 
-// Route::get('/admin/add', 'AdminController@get');
+
+
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
