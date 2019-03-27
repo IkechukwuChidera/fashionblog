@@ -771,5 +771,8 @@
 	</div>
 
 
+<!-- paystack -->
+
+
 	<!-- Footer -->
 @endsection

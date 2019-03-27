@@ -29,6 +29,10 @@ Route::get('/cllback', 'SocialAuthFacebookController@cllback');
 Route::get('/redirect', 'SocialAuthGoogleController@redirect');
 Route::get('/callback', 'SocialAuthGoogleController@callback');
 
+//paystack
+Route::post('/pay', 'PaymentController@redirectToGateway')->name('pay');
+Route::get('/payment/callback', 'PaymentController@handleGatewayCallback');
+
 Route::get('/home', 'HomeController@index')->name('home');
 //fashionblog
 Route::get('users/index', 'UserController@index');

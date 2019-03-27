@@ -1,13 +1,34 @@
-@extends('layouts.app')
-
+@extends('layout.master')
 @section('content')
-<div class="container">
-  <div class="row">
-        <div class="col-md-12 row-block">
-            <a href="{{ url('auth/google') }}" class="btn btn-lg btn-primary btn-block">
-                <strong>Login With Google</strong>
-            </a>
+
+<form method="POST" action="{{ route('pay') }}" accept-charset="UTF-8" class="form-horizontal" role="form">
+        <div class="row" style="margin-bottom:40px;">
+          <div class="col-md-8 col-md-offset-2">
+            <p>
+                <div>
+                    Lagos Eyo Print Tee Shirt
+                    ₦ 2,950
+                </div>
+            </p>
+            <input type="hidden" name="email" value="otemuyiwa@gmail.com"> {{-- required --}}
+            <input type="hidden" name="orderID" value="345">
+            <input type="hidden" name="amount" value="800"> {{-- required in kobo --}}
+            <input type="hidden" name="quantity" value="3">
+
+            <input type="hidden" name="reference" value="{{ Paystack::genTranxRef() }}"> {{-- required --}}
+            <input type="hidden" name="key" value="{{ config('paystack.secretKey') }}"> {{-- required --}}
+
+
+             <input type="hidden" name="_token" value="{{ csrf_token() }}"> {{-- employ this in place of csrf_field only in laravel 5.0 --}}
+
+
+            <p>
+              <button class="btn btn-success btn-lg btn-block" type="submit" value="Pay Now!">
+              <i class="fa fa-plus-circle fa-lg"></i> Pay Now!
+              </button>
+            </p>
+          </div>
         </div>
-    </div>
-</div>
+</form>
+
 @endsection
