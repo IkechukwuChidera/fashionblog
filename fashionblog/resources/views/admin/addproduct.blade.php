@@ -2,6 +2,17 @@
 @section('title', 'Add Product')
 @section('content')
 
+    <div class ="col-xs-6 col-sm-6">
+            <div class ="row">
+                <div class = "top-bar-center">
+                    <ul class = "menu">
+                        <li><h3 class ="menu_text">Go back Home</h3></li>
+                        <li><a href = "/admin/index">Home</a></li>
+                    </ul>
+                </div> 
+            </div>  
+    </div>
+
 
 
     <div class="content">
@@ -35,12 +46,18 @@
                                         </div>
 
                                     @endif
+
+                                    <div>
+                                        @if (Session::has('success'))
+                                            <div class="alert alert-info">{{ Session::get('success') }}</div>
+                                        @endif
+                                    </div>
+
+
+
+                                    
                                 </div>
-                                <div>
-                                  @if (Session::has('success'))
-                                      <div class="alert alert-info">{{ Session::get('Success') }}</div>
-                                  @endif
-                                </div>
+                               
 
 
 
@@ -80,12 +97,12 @@
                                     
 
                                         <div class="card-body">
-                                            <select data-placeholder="Choose a Category..." class="standardSelect" tabindex="1" name= "categories_id">
-                                                <option value="2">Bags</option>
-                                                <option value="5">Belts</option>
-                                                <option value="4">Shoes</option>
-                                                <option value="3">Watches</option>
-                                                <option value="1">Wears</option>  
+                                            <select data-placeholder="Choose a Category..." class="standardSelect" tabindex="1" name= "category_id">
+                                                <option value="2">bags</option>
+                                                <option value="5">belts</option>
+                                                <option value="4">shoes</option>
+                                                <option value="3">watches</option>
+                                                <option value="1">wears</option>  
                                             </select>
                                         </div>
 
@@ -112,21 +129,22 @@
             </div>
         </div>
     </div>
-
+    
+   
                 
 
 
 
 
-<!-- Right Panel -->
+  <!-- Right Panel -->
 
-<script>
-    jQuery(document).ready(function() {
-        jQuery(".standardSelect").chosen({
-            disable_search_threshold: 10,
-            no_results_text: "Oops, nothing found!",
-            width: "100%"
+    <script>
+        jQuery(document).ready(function() {
+            jQuery(".standardSelect").chosen({
+                disable_search_threshold: 10,
+                no_results_text: "Oops, nothing found!",
+                width: "100%"
+            });
         });
-    });
-</script>
+    </script>
 @endsection

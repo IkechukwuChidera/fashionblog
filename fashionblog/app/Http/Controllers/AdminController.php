@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Session;
 use App\Category;
 use App\Product;
 use App\Image as Pictures;
@@ -12,22 +13,16 @@ class AdminController extends Controller
     //Product Codes
     public function index()
     { 
-      return view('admin.index');
+      $categories = Category::all();
+      return view('admin.index', compact('categories'));
     }
 
 
   public function addproduct()
-  {
-
-   
+  { 
      return view ('admin.addproduct');
-
   }
 
-  public function addImage()
-{
-
-}
 
   public function storeproduct(Request $request)
   {
@@ -36,7 +31,7 @@ class AdminController extends Controller
     $product->Product_name =$request->Product_name;
     $product->Price =$request->Price;
     $product->Description = $request->Description;
-    $product->categories_id =$request->categories_id;
+    $product->category_id =$request->category_id;
     $product->save();
     foreach($request->file('Image') as $Image){
       $image = new Pictures;
@@ -51,7 +46,7 @@ class AdminController extends Controller
 
     }
      
-    return redirect()->back();
+    return redirect()->back()->with(Session::flash('success','Product added Sucessfully'));
             
   }
 
@@ -101,10 +96,12 @@ class AdminController extends Controller
   return redirect('/admin/addcategory')->with('success', 'category created');
 }
 
- public function showcategory()
- {
-   
- }
+ public function showcategory(Category $id)
+  {// {  dd($id);
+    $product = Product::all(); 
+    $category= Category:: with('Product')->find($id)->first();
+    return view('admin.showcategories', compact('category', 'product'));
+  }
 
 
 

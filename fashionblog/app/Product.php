@@ -6,11 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-  protected $guarded = array('id');
+  protected $guarded = 'id';
+  protected $foreignKey='category_id';
   
     //
     public function category(){
-      $this->belongsTo(category::class);
+      return $this->belongsTo(Category::class);
+    }
+    public function images(){
+      return $this->hasMany(Image::class);
     }
 
    

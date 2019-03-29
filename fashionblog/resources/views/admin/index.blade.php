@@ -16,6 +16,38 @@
 </div>
 
 
+<table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Category name</th>
+              <th scope="col">Created At</th>
+            </tr>
+          </thead>
+          <tbody>
+            @foreach($categories as $category)
+            <tr>
+              <th scope="row">{{$category->id}}</th>
+                <td><a href="{{route('details',$category->id)}}">{{$category->category_name}}</td>
+                    <td>{{$category->created_at->toDateTimeString()}}</td>
+              <td>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="{{ URL::to('admin/' . $category->id . '/edit') }}">
+                  	<button type="button" class="btn btn-warning">Edit</button>
+                  </a>&nbsp;
+                  <form action="{{url('admin', [$category->id])}}" method="POST">
+    					<input type="hidden" name="_method" value="DELETE">
+   						<input type="hidden" name="_token" value="{{ csrf_token() }}">
+   						<input type="submit" class="btn btn-danger" value="Delete"/>
+   				  </form>
+              </div>
+			</td>
+            </tr>
+            @endforeach
+          </tbody>
+        </table>
+
+
 
 
 @endsection

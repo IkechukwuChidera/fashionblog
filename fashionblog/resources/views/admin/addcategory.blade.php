@@ -2,6 +2,7 @@
 
 @section('title', 'Add Category')
 @section('content')
+@extends('layout.direct')
 
 <div class ="col-xs-6 col-sm-6">
         <div class ="row">

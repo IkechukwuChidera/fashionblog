@@ -19,10 +19,10 @@ class CreateProductsTable extends Migration
               $table->string('Product_name');
               $table->string('Description');
               $table->string('Image')->nullable();
-              $table->integer('categories_id')->unsigned()->nullabe();
+              $table->integer('category_id')->unsigned()->nullabe();
 
 
-              $table->foreign('categories_id')->references('id')
+              $table->foreign('category_id')->references('id')
               ->on('categories')
               ->onUpdate('cascade')
               ->onDelete('cascade');

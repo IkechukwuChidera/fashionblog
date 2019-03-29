@@ -37,6 +37,10 @@ Route::get('/admin/addcategory', 'AdminController@addcategory');
 Route::post('/admin/addcategory', 'AdminController@store');
 
 
+Route::get('/admin/showcategories/{id}', 'AdminController@showcategory')->name('details');
+
+
+
 
 
 

@@ -8,6 +8,7 @@ class Category extends Model
 {
     protected $table= 'categories';
     protected $guarded= ['id'];
+    
     public function product()
     {
     return $this->hasMany(Product::class);
